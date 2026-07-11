@@ -1,6 +1,6 @@
 # Helios Remaining-State Batch Status
 
-Status: `STOPPED — 5/6 rows accepted; failed row blocked on technical format`
+Status: `COMPLETE — 6/6 rows accepted; full atlas QA passed`
 
 ## Runtime confirmation before batch
 
@@ -36,11 +36,13 @@ failed, sad, or exhausted state. Every candidate was rejected because the blue
 background contained visible illumination, gradient, or darker patches rather
 than a uniform removable chroma field.
 
-No failed candidate was ingested. No incomplete full atlas or smoke-package
-update was produced. This is one of the user-approved mid-batch stop conditions.
+The final failed candidate was recovered without regeneration using deterministic
+border-sampled chroma removal, soft matte, and despill. It then passed component
+extraction with eight frames, zero edge pixels, 0–3 chroma-adjacent pixels per
+frame, and no row errors or warnings.
 
 ## Next allowed action
 
-Resolve only the `failed` row's background-generation problem. Do not regenerate
-the five accepted rows. After a valid failed row exists, compose the complete
-nine-row atlas and run one unified visual and technical QA pass.
+Use the complete atlas and smoke candidate under `phase4/helios/` for joint
+review and controlled local runtime verification. Do not regenerate accepted
+rows unless a true runtime defect is observed.
