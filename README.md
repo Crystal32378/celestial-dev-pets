@@ -8,7 +8,7 @@ Helios 日、Luna 月、Terra 地的角色聖經與靜態狀態原型。
 
 | Helios 日 | Luna 月 | Terra 地 |
 |---|---|---|
-| ![Helios preview](previews/helios.png) | ![Luna preview](previews/luna.png) | ![Terra preview](https://raw.githubusercontent.com/Crystal32378/celestial-dev-pets/main/previews/terra.png?v=2) |
+| ![Helios preview](previews/helios.png) | ![Luna preview](previews/luna.png) | ![Terra preview](previews/terra.svg) |
 
 上方圖片是為 GitHub 顯示最佳化的角色預覽圖，不是 Codex 可直接安裝的動畫 atlas。
 
