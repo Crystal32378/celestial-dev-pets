@@ -3,28 +3,8 @@
   "id": "luna",
   "name": "Luna",
   "type": "moon",
-  "conceptTier": "mini",
-  "spritesheet": "../assets/luna.png",
-  "frameWidth": 64,
-  "frameHeight": 64,
-  "cols": 3,
-  "rows": 3,
-  "fps": 8,
-  "personality": "冷靜高效的夜班小編，話少但重點精準。",
+  "status": "static-character-study",
+  "preview": "../previews/luna.png",
   "signatureError": "rate_limit",
-  "states": {
-    "idle": {"frames": [0], "loop": true},
-    "waiting": {"frames": [1], "loop": true},
-    "running": {"frames": [2], "loop": true},
-    "review": {"frames": [3], "loop": true},
-    "jumping": {"frames": [4], "loop": false},
-    "waving": {"frames": [5], "loop": false},
-    "failed": {"frames": [6], "loop": true},
-    "happy": {"frames": [7], "loop": true},
-    "glow": {"frames": [8], "loop": true}
-  },
-  "notes": [
-    "Each state currently uses one static pose.",
-    "This v0.1 schema is not the Codex native pet contract."
-  ]
+  "notes": ["Not a Codex-native pet.json.", "Use CONTRACT.md for the production target."]
 }

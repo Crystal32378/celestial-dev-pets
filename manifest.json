@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "package": "celestial-dev-pets",
   "displayName": "Celestial Dev Pets — 日月地",
+  "status": "character-bible-static-prototype",
   "unofficial": true,
   "pets": [
     {"id": "helios", "config": "pets/helios-pet.json"},
     {"id": "luna", "config": "pets/luna-pet.json"},
     {"id": "terra", "config": "pets/terra-pet.json"}
-  ],
-  "stateOrder": ["idle", "waiting", "running", "review", "jumping", "waving", "failed", "happy", "glow"]
+  ]
 }
