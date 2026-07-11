@@ -1,0 +1,149 @@
+{
+  "frames": [
+    {
+      "frame": 0,
+      "bbox": [
+        5,
+        5,
+        187,
+        203
+      ],
+      "center_x": 93.53,
+      "center_y": 108.6,
+      "width": 182,
+      "height": 198,
+      "baseline": 202,
+      "nontransparent_pixels": 24959,
+      "edge_pixels": 0
+    },
+    {
+      "frame": 1,
+      "bbox": [
+        5,
+        12,
+        187,
+        196
+      ],
+      "center_x": 94.08,
+      "center_y": 110.42,
+      "width": 182,
+      "height": 184,
+      "baseline": 195,
+      "nontransparent_pixels": 23640,
+      "edge_pixels": 0
+    },
+    {
+      "frame": 2,
+      "bbox": [
+        5,
+        5,
+        187,
+        203
+      ],
+      "center_x": 93.29,
+      "center_y": 108.83,
+      "width": 182,
+      "height": 198,
+      "baseline": 202,
+      "nontransparent_pixels": 24817,
+      "edge_pixels": 0
+    },
+    {
+      "frame": 3,
+      "bbox": [
+        9,
+        5,
+        184,
+        203
+      ],
+      "center_x": 93.29,
+      "center_y": 107.38,
+      "width": 175,
+      "height": 198,
+      "baseline": 202,
+      "nontransparent_pixels": 23552,
+      "edge_pixels": 0
+    },
+    {
+      "frame": 4,
+      "bbox": [
+        5,
+        6,
+        187,
+        202
+      ],
+      "center_x": 93.74,
+      "center_y": 108.87,
+      "width": 182,
+      "height": 196,
+      "baseline": 201,
+      "nontransparent_pixels": 24565,
+      "edge_pixels": 0
+    },
+    {
+      "frame": 5,
+      "bbox": [
+        5,
+        11,
+        187,
+        196
+      ],
+      "center_x": 93.96,
+      "center_y": 110.36,
+      "width": 182,
+      "height": 185,
+      "baseline": 195,
+      "nontransparent_pixels": 23631,
+      "edge_pixels": 0
+    },
+    {
+      "frame": 6,
+      "bbox": [
+        8,
+        5,
+        185,
+        203
+      ],
+      "center_x": 93.34,
+      "center_y": 107.24,
+      "width": 177,
+      "height": 198,
+      "baseline": 202,
+      "nontransparent_pixels": 23813,
+      "edge_pixels": 0
+    },
+    {
+      "frame": 7,
+      "bbox": [
+        10,
+        5,
+        183,
+        203
+      ],
+      "center_x": 93.4,
+      "center_y": 107.08,
+      "width": 173,
+      "height": 198,
+      "baseline": 202,
+      "nontransparent_pixels": 23259,
+      "edge_pixels": 0
+    }
+  ],
+  "summary": {
+    "center_x_range": 0.79,
+    "center_y_range": 3.34,
+    "width_range": 9,
+    "height_range": 14,
+    "contact_baseline_difference_frames_0_4": 1,
+    "hidden_transparent_rgb_residue": 0,
+    "atlas_size": [
+      1536,
+      1872
+    ],
+    "cell_size": [
+      192,
+      208
+    ],
+    "derivation": "framewise horizontal mirror preserving frame order"
+  }
+}

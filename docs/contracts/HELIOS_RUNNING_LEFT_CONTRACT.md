@@ -7,6 +7,28 @@ Atlas row: row 2
 Cell size: 192 × 208 px  
 Canonical reference: signed-off Phase 1 Helios
 
+## Attempt history and approved strategy
+
+### Attempt 1 — rejected
+
+The first freely generated eight-frame strip was rejected before ingestion
+because the poses remained predominantly front-facing and did not
+unmistakably communicate screen-left travel. The image was not copied into the
+run, atlas, or review package. This rejection is retained as evidence that
+direction semantics are a hard gate.
+
+### Attempt 2 — approved deterministic derivation
+
+- Use the accepted eight `running-right` frames as the motion source of truth.
+- Mirror each frame individually while preserving frame order, gait phase,
+  center, scale, and baseline.
+- Do not mirror an entire strip in a way that reverses animation timing.
+- Inspect world-light direction, sunglasses reflections, ray arrangement, and
+  every non-symmetric detail after derivation.
+- Apply only the smallest local pixel repair if a mirrored asymmetric detail
+  breaks canonical identity. Do not regenerate the full row unless separately
+  approved.
+
 ## Scope lock
 
 - Generate exactly eight `running-left` frames.
