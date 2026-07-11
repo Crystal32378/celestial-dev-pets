@@ -42,9 +42,16 @@ Repair required: none.
 
 ## Acceptance state
 
-Awaiting explicit joint acceptance from Crystal and 大 G. No next row may begin
-until they record:
+Final acceptance: `PASS` — accepted jointly by Crystal and 大 G on 2026-07-11.
 
-```text
-Helios running-right final acceptance: PASS
-```
+- Original-size GIF: PASS.
+- 64 px GIF: PASS.
+- Character consistency: PASS.
+- Rightward gait direction: PASS.
+- Loop transition: PASS.
+- Small-size readability: PASS.
+- Motion rhythm: PASS.
+- Repair required: none.
+
+Phase 2 is closed. The production line remains stopped; this acceptance does
+not authorize `running-left` or any other state.
