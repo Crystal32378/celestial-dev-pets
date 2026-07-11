@@ -51,3 +51,20 @@ repainting only:
 The repair must preserve silhouettes, frame order, gait, centers, scale, and
 baselines exactly. No full-row regeneration, atlas installation, smoke-package
 update, next-state generation, or `main` merge is authorized by this record.
+
+## Lighting repair attempt — rejected
+
+Status: `FAIL — invariants not preserved`.
+
+A single lighting-only edit was attempted with the current left candidate,
+canonical Helios, and accepted rightward lighting reference. The edit improved
+the intended light direction but also changed geometry, pose, spacing, and
+identity pixels. It was rejected by the repair Agent before ingestion.
+
+- No repaired output was copied into the run or review package.
+- The deterministic Attempt 2 candidate remains unchanged.
+- No atlas or smoke package was updated.
+- No second repair, row regeneration, or next-state generation was attempted.
+
+The current generative edit path is not precise enough for a lighting-only
+pixel repair under the locked geometry invariants.
