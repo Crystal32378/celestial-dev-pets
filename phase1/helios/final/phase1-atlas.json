@@ -1,0 +1,24 @@
+{
+  "phase": "Phase 1 idle proof",
+  "atlas": [
+    1536,
+    1872
+  ],
+  "cell": [
+    192,
+    208
+  ],
+  "implemented_rows": {
+    "idle": 6
+  },
+  "intentionally_blank_rows": [
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ]
+}

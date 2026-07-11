@@ -53,8 +53,8 @@ Helios 日、Luna 月、Terra 地的角色聖經與靜態狀態原型。
 ## Roadmap
 
 - [x] v0.1 — character bible and static state previews
-- [ ] v0.2 — Helios canonical character reference
-- [ ] v0.3 — Helios single-row animation proof (`idle`)
+- [x] v0.2 — Helios canonical character reference (`feat/helios-codex-pet`)
+- [x] v0.3 — Helios single-row animation proof (`idle`, pending joint review)
 - [ ] v0.4 — full Codex-compatible 8 × 9 Helios atlas
 - [ ] v0.5 — Luna and Terra atlases
 - [ ] v1.0 — validated installable pet packages
@@ -73,3 +73,10 @@ Helios 日、Luna 月、Terra 地的角色聖經與靜態狀態原型。
 ## License
 
 Code and configuration files are provided under the MIT License. Visual assets remain experimental character-study material pending a dedicated asset license review.
+
+## Phase 1 review package
+
+The Helios canonical reference, six-frame idle proof, partial atlas, preview,
+contact sheet, validator output, and QA record live under
+[`phase1/helios/`](phase1/helios/). This is a review artifact, not an installable
+complete pet; all non-idle rows are intentionally transparent.

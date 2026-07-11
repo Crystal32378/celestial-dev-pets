@@ -1,0 +1,214 @@
+{
+  "ok": false,
+  "frames_root": "/Users/crystalchang/Documents/Codex/2026-07-11/new-chat/celestial-dev-pets/work/helios-phase1/run/frames",
+  "errors": [
+    "expected 8 frame files for running-right, found 0",
+    "expected 8 frame files for running-left, found 0",
+    "expected 4 frame files for waving, found 0",
+    "expected 5 frame files for jumping, found 0",
+    "expected 8 frame files for failed, found 0",
+    "expected 6 frame files for waiting, found 0",
+    "expected 6 frame files for running, found 0",
+    "expected 6 frame files for review, found 0"
+  ],
+  "warnings": [],
+  "rows": [
+    {
+      "state": "idle",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/crystalchang/Documents/Codex/2026-07-11/new-chat/celestial-dev-pets/work/helios-phase1/run/frames/idle/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 21726,
+          "bbox": [
+            5,
+            17,
+            187,
+            191
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 165
+        },
+        {
+          "index": 1,
+          "file": "/Users/crystalchang/Documents/Codex/2026-07-11/new-chat/celestial-dev-pets/work/helios-phase1/run/frames/idle/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 21568,
+          "bbox": [
+            5,
+            17,
+            187,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 165
+        },
+        {
+          "index": 2,
+          "file": "/Users/crystalchang/Documents/Codex/2026-07-11/new-chat/celestial-dev-pets/work/helios-phase1/run/frames/idle/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 21790,
+          "bbox": [
+            5,
+            17,
+            187,
+            191
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 185
+        },
+        {
+          "index": 3,
+          "file": "/Users/crystalchang/Documents/Codex/2026-07-11/new-chat/celestial-dev-pets/work/helios-phase1/run/frames/idle/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 21826,
+          "bbox": [
+            5,
+            17,
+            187,
+            191
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 256
+        },
+        {
+          "index": 4,
+          "file": "/Users/crystalchang/Documents/Codex/2026-07-11/new-chat/celestial-dev-pets/work/helios-phase1/run/frames/idle/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 21526,
+          "bbox": [
+            5,
+            17,
+            187,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 213
+        },
+        {
+          "index": 5,
+          "file": "/Users/crystalchang/Documents/Codex/2026-07-11/new-chat/celestial-dev-pets/work/helios-phase1/run/frames/idle/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 21860,
+          "bbox": [
+            5,
+            17,
+            187,
+            191
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 239
+        }
+      ]
+    },
+    {
+      "state": "running-right",
+      "expected_frames": 8,
+      "actual_frames": 0,
+      "extraction_method": null,
+      "ok": false,
+      "errors": [
+        "expected 8 frame files for running-right, found 0"
+      ],
+      "warnings": [],
+      "frames": []
+    },
+    {
+      "state": "running-left",
+      "expected_frames": 8,
+      "actual_frames": 0,
+      "extraction_method": null,
+      "ok": false,
+      "errors": [
+        "expected 8 frame files for running-left, found 0"
+      ],
+      "warnings": [],
+      "frames": []
+    },
+    {
+      "state": "waving",
+      "expected_frames": 4,
+      "actual_frames": 0,
+      "extraction_method": null,
+      "ok": false,
+      "errors": [
+        "expected 4 frame files for waving, found 0"
+      ],
+      "warnings": [],
+      "frames": []
+    },
+    {
+      "state": "jumping",
+      "expected_frames": 5,
+      "actual_frames": 0,
+      "extraction_method": null,
+      "ok": false,
+      "errors": [
+        "expected 5 frame files for jumping, found 0"
+      ],
+      "warnings": [],
+      "frames": []
+    },
+    {
+      "state": "failed",
+      "expected_frames": 8,
+      "actual_frames": 0,
+      "extraction_method": null,
+      "ok": false,
+      "errors": [
+        "expected 8 frame files for failed, found 0"
+      ],
+      "warnings": [],
+      "frames": []
+    },
+    {
+      "state": "waiting",
+      "expected_frames": 6,
+      "actual_frames": 0,
+      "extraction_method": null,
+      "ok": false,
+      "errors": [
+        "expected 6 frame files for waiting, found 0"
+      ],
+      "warnings": [],
+      "frames": []
+    },
+    {
+      "state": "running",
+      "expected_frames": 6,
+      "actual_frames": 0,
+      "extraction_method": null,
+      "ok": false,
+      "errors": [
+        "expected 6 frame files for running, found 0"
+      ],
+      "warnings": [],
+      "frames": []
+    },
+    {
+      "state": "review",
+      "expected_frames": 6,
+      "actual_frames": 0,
+      "extraction_method": null,
+      "ok": false,
+      "errors": [
+        "expected 6 frame files for review, found 0"
+      ],
+      "warnings": [],
+      "frames": []
+    }
+  ]
+}
