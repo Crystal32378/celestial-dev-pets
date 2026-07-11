@@ -68,3 +68,24 @@ identity pixels. It was rejected by the repair Agent before ingestion.
 
 The current generative edit path is not precise enough for a lighting-only
 pixel repair under the locked geometry invariants.
+
+## Final acceptance decision
+
+`PASS — accepted visual deviation`.
+
+Crystal accepted the deterministic candidate from commit `514e994` as the
+runtime `running-left` row. The mirrored body highlights, sunglasses
+reflections, and asymmetric ray shading are documented visual deviations and
+will not receive further repair.
+
+Accepted basis:
+
+- exact leftward direction and runtime semantics;
+- preserved gait, frame order, centers, scale, baselines, and loop;
+- eight valid transparent frames with zero hidden RGB residue;
+- no geometry, identity, or pose changes from the accepted motion source;
+- practical value of replacing the current transparent row 2 in the smoke test.
+
+This acceptance authorizes only local `helios-smoke` runtime verification. It
+does not authorize another state, formal `helios` installation, or merge into
+`main`.
