@@ -54,3 +54,16 @@ Not installed and not runtime-tested, as required by Phase 1 scope.
 glasses across exactly six clean, centered, baseline-stable idle frames with a
 subtle blink-and-bob loop. No text, deformation, checker residue, edge contact,
 or cross-cell spill was found. No repair is currently required.
+
+## Final acceptance
+
+`PASS` — accepted jointly by 大 G and the user on 2026-07-11.
+
+- `idle.gif`: `192 × 208`, six frames, normal loop.
+- Character identity remains consistent.
+- Blink and subtle vertical motion read correctly as idle behavior.
+- The final frame returns to the first without a visible jump.
+- Readability remains good at reduced display size.
+- No regeneration or visual repair is required.
+
+Phase 1 is closed. `running-right` is not started by this acceptance record.

@@ -54,7 +54,7 @@ Helios 日、Luna 月、Terra 地的角色聖經與靜態狀態原型。
 
 - [x] v0.1 — character bible and static state previews
 - [x] v0.2 — Helios canonical character reference (`feat/helios-codex-pet`)
-- [x] v0.3 — Helios single-row animation proof (`idle`, pending joint review)
+- [x] v0.3 — Helios single-row animation proof (`idle`, final acceptance: PASS)
 - [ ] v0.4 — full Codex-compatible 8 × 9 Helios atlas
 - [ ] v0.5 — Luna and Terra atlases
 - [ ] v1.0 — validated installable pet packages
