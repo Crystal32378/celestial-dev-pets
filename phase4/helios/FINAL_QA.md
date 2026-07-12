@@ -39,3 +39,19 @@ Repair rows: none.
 
 The full atlas and `helios-smoke` candidate are prepared but not automatically
 installed by this commit. No other character or state generation was started.
+
+## Complete local runtime verification
+
+Status: `PASS` — verified by Crystal on 2026-07-12.
+
+- The complete nine-state candidate was installed under `helios-smoke`.
+- Idle playback remained normal.
+- Pointer interactions moved Helios naturally in both directions.
+- Directional animations returned naturally to idle.
+- The complete atlas no longer caused the pet to disappear.
+- No clipping, wrong-row display, or flicker was observed.
+
+Available screenshots are stored under [`runtime-evidence/`](runtime-evidence/).
+Two additional user screenshots referenced during verification were no longer
+present at their original Desktop paths when evidence was copied; the two
+available captures are sufficient to document the live loaded pet and movement.
