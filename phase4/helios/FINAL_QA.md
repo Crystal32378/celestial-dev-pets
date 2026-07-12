@@ -51,7 +51,7 @@ Status: `PASS` — verified by Crystal on 2026-07-12.
 - The complete atlas no longer caused the pet to disappear.
 - No clipping, wrong-row display, or flicker was observed.
 
-Available screenshots are stored under [`runtime-evidence/`](runtime-evidence/).
-Two additional user screenshots referenced during verification were no longer
-present at their original Desktop paths when evidence was copied; the two
-available captures are sufficient to document the live loaded pet and movement.
+Runtime screenshots were reviewed directly by Crystal but are intentionally not
+stored in the public repository because they include unrelated desktop and
+workspace information. The acceptance record preserves only the observed test
+results.

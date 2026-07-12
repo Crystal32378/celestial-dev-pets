@@ -23,7 +23,9 @@ Install path: `~/.codex/pets/helios-smoke/`
 - Speech or notification bubble: observed as an App-provided overlay rather
   than pixels in the pet atlas.
 
-Evidence: [`evidence/codex-runtime-loaded.png`](evidence/codex-runtime-loaded.png)
+Runtime evidence was reviewed directly by Crystal. Screenshots are intentionally
+not stored in the public repository because they include unrelated desktop and
+workspace information.
 
 ## Runtime observations
 
