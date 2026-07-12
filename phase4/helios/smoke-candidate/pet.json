@@ -1,0 +1,6 @@
+{
+  "id": "helios-smoke",
+  "displayName": "Helios Smoke Test",
+  "description": "Complete nine-state Helios local runtime smoke candidate.",
+  "spritesheetPath": "spritesheet.webp"
+}
